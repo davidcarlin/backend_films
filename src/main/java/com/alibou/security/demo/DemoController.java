@@ -16,4 +16,8 @@ public class DemoController {
     return ResponseEntity.ok("Hello from secured endpoint");
   }
 
+  @GetMapping("/gude")
+  public ResponseEntity<String> sayGude() {
+    return ResponseEntity.ok("Yes, gude is the best");
+  }
 }
